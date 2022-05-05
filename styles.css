@@ -112,41 +112,49 @@ body {
 .project-section .front-mac {
   grid-row: 2/3;
   grid-column: 1/2;
-  background-color:blue;
+  background-color:white;
+  display: flex;
+  align-items: flex-end;
 }
 
 .project-section .deco-middle {
   grid-row: 2/3;
   grid-column: 2/4;
-  background-color: blueviolet;
+  background-image: url(images/deco-middle.png);
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .project-section .cover-right-side {
   grid-row: 2/3;
   grid-column: 4/5;
-  background-color: brown;
+  background-image: url(images/covered-image.png);
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .project-section .mac-phone {
   grid-row: 3/4;
   grid-column: 1/3;
-  background-color: burlywood;
+  background-image: url(images/mac-phone.png);
 }
 
 .project-section .deco-right-side {
   grid-row: 3/4;
   grid-column: 3/5;
-  background-color: blanchedalmond;
+  display: flex;
+  align-items: flex-end;
 }
 
 .project-section .deco-left-side {
   grid-row: 4/5;
   grid-column: 1/3;
-  background-color: aquamarine;
+  background-image: url(images/first-deco-left.svg), url(images/second-deco-left.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 0%, 100% 0%;
 }
 
 .project-section .last-laptop {
   grid-row: 4/5;
   grid-column: 3/5;
-  background-color: blue;
 }
